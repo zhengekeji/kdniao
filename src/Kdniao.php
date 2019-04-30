@@ -9,4 +9,9 @@ class Kdniao {
 
         return "I am a test of composer project!";
     }
+
+    public function xixi()
+    {
+    	echo 'mamaipi';
+    }
 }
