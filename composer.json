@@ -3,6 +3,7 @@
     "description":  "kdniao services of composer project!",
     "keywords": ["Zhenge"],
     "license": "MIT",
+    "version":"1.0",
     "authors": [
         {
             "name": "Zhenge",
@@ -24,7 +25,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Zhenge\\Kdniao\\Demo\\": "demos/"
+            "Zhenge\\Kdniao\\Extenion\\": "extension/"
         }
     }
 }
