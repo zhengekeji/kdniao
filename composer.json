@@ -22,10 +22,5 @@
         "psr-4": {
             "Zhenge\\Kdniao\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Zhenge\\Kdniao\\Extenion\\": "extension/"
-        }
     }
 }

@@ -1,17 +1,43 @@
 <?php
+/*
+ * @Author: wells
+ * @decription: kdniao服务类
+ * @since: 2019-04-30 15:04:03
+ * @lastTime: 2019-04-30 16:25:43
+ */
 
-namespace Zhenge\Kdniao;
+namespace Zhange\Kdniao;
 
 
-class Kdniao {
+class Kdniao
+{
+    /**
+     * @var 商户id
+     */
+    protected $ebussionsid;
 
-    public static function test() {
+    /**
+     * @var appkey
+     */
+    protected $appkey;
 
-        return "I am a test of composer project!";
-    }
-
-    public function xixi()
+    /**
+     * Kdniao constructor.
+     * @param $ebussionid
+     * @param $appkey
+     */
+    public function __construct()
     {
-    	echo 'mamaipi';
+        $this->ebussionsid=env('KDNIAO_EBUSSINESSID','');
+        $this->appkey=env('KDNIAO_APPKEY','');
     }
+
+
+    public function getOrderTraces($shipperCode,$LogisticCode)
+    {
+        $json = $shipperCode . $LogisticCode;
+       	echo $json;
+       	die;
+    }
+
 }

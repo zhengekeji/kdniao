@@ -1,1 +1,21 @@
-快递鸟方便类
+##快递鸟,快递查询
+###安装
+```sh
+composer require zhenge/kdniao
+```
+###配置
+在.env文件中添加
+```sh
+KDNIAO_EBUSSINESSID=
+KDNIAO_APPKEY=
+```
+在config/app.php中注册服务
+```sh
+Zhenge\Kdniao\KdniaoServiceProvider::class,
+'Kdniao'=>Zhenge\Kdniao\Facades\Kdniao::class,
+```
+###使用
+```sh
+这个等我写完了再说
+```
+```sh
