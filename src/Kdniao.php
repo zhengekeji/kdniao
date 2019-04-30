@@ -6,7 +6,7 @@
  * @lastTime: 2019-04-30 16:25:43
  */
 
-namespace Zhange\Kdniao;
+namespace Zhenge\Kdniao;
 
 
 class Kdniao
