@@ -16,6 +16,6 @@ Zhenge\Kdniao\KdniaoServiceProvider::class,
 ```
 ###使用
 ```sh
-这个等我写完了再说a
+这个等我写完了再说abcd
 ```
 ```sh
