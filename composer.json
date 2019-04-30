@@ -13,7 +13,8 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "jaeger/querylist": "~V4"
     },
     "autoload": {
         "classmap": [
