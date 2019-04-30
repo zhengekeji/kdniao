@@ -10,7 +10,7 @@ final class Kdniao
 
     public function test()
     {
-    	return 'dfa';
+    	return 'dfda';
     }
 
 }
