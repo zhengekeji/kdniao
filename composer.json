@@ -1,0 +1,33 @@
+{
+    "name": "Zhenge/Kdniao",
+    "description":  "kdniao services of composer project!",
+    "keywords": ["Zhenge"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zhenge",
+            "email": "986773071@qq.com",
+            "homepage": "https://github.com/zhengekeji",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        // "phpunit/phpunit": "@stable"
+    },
+    "autoload": {
+        "classmap": [
+           
+        ],
+        "psr-4": {
+            "Zhenge\\Kdniao\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zhenge\\Kdniao\\Demo\\": "demos/"
+        }
+    }
+}
